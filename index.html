@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mayank Maheshwari | Data Engineering Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio website for Mayank Maheshwari, focused on data engineering, cloud analytics, pipelines, warehousing, and automation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Mayank Maheshwari home">
+        <span class="brand-mark">MM</span>
+        <span>Mayank Maheshwari</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">Data Engineering Portfolio</p>
+          <h1>Building reliable data pipelines, analytics platforms, and automation.</h1>
+          <p class="hero-text">
+            I design and maintain data systems that turn messy operational data into trusted
+            datasets, dashboards, and business-ready insights.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#projects">View Projects</a>
+            <a class="button secondary" href="mailto:mayankuit33@gmail.com">Email Me</a>
+          </div>
+        </div>
+        <div class="pipeline-visual" aria-label="Animated data pipeline visualization">
+          <div class="pipeline-stage stage-a">
+            <span>Sources</span>
+            <strong>APIs · Files · DBs</strong>
+          </div>
+          <div class="pipeline-flow flow-one"></div>
+          <div class="pipeline-stage stage-b">
+            <span>Processing</span>
+            <strong>ETL · Quality · Jobs</strong>
+          </div>
+          <div class="pipeline-flow flow-two"></div>
+          <div class="pipeline-stage stage-c">
+            <span>Analytics</span>
+            <strong>Models · BI · Alerts</strong>
+          </div>
+          <div class="metric-tile metric-one">
+            <strong>99.9%</strong>
+            <span>pipeline uptime target</span>
+          </div>
+          <div class="metric-tile metric-two">
+            <strong>10x</strong>
+            <span>faster reporting cycles</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="focus-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Focus Areas</p>
+          <h2 id="focus-heading">Data work built for accuracy, scale, and repeatability.</h2>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-item">
+            <h3>Data Pipelines</h3>
+            <p>Batch and scheduled ingestion, validation, transformation, and monitoring workflows.</p>
+          </article>
+          <article class="focus-item">
+            <h3>Cloud Analytics</h3>
+            <p>Cloud warehouses, lakehouse patterns, dimensional models, and performance tuning.</p>
+          </article>
+          <article class="focus-item">
+            <h3>Automation</h3>
+            <p>Reusable scripts, reporting flows, data quality checks, and operational alerts.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="projects" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="projects-heading">Projects that show practical data engineering experience.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-icon">SQL</div>
+            <h3>Sales Analytics Warehouse</h3>
+            <p>
+              Designed a clean reporting model for sales, customer, and product data with
+              incremental refresh patterns and dashboard-ready fact tables.
+            </p>
+            <ul>
+              <li>Dimensional modeling</li>
+              <li>Data quality checks</li>
+              <li>BI performance tuning</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">ETL</div>
+            <h3>Automated File Ingestion</h3>
+            <p>
+              Built a repeatable ingestion process for CSV and Excel inputs, including schema
+              validation, error logs, and standardized output datasets.
+            </p>
+            <ul>
+              <li>Python automation</li>
+              <li>Exception handling</li>
+              <li>Audit-ready logs</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="project-icon">BI</div>
+            <h3>Executive Reporting Layer</h3>
+            <p>
+              Created curated analytics tables and dashboard metrics so business users could track
+              KPIs without manual spreadsheet consolidation.
+            </p>
+            <ul>
+              <li>KPI definitions</li>
+              <li>Dashboard datasets</li>
+              <li>Refresh monitoring</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skills-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Technical Toolkit</p>
+          <h2 id="skills-heading">Core skills across ingestion, transformation, and delivery.</h2>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <p>SQL, Python, Bash, JavaScript</p>
+          </div>
+          <div class="skill-group">
+            <h3>Data Platforms</h3>
+            <p>Snowflake, BigQuery, Redshift, PostgreSQL, MySQL</p>
+          </div>
+          <div class="skill-group">
+            <h3>Engineering</h3>
+            <p>ETL/ELT, Airflow, dbt, APIs, Git, CI/CD</p>
+          </div>
+          <div class="skill-group">
+            <h3>Analytics</h3>
+            <p>Power BI, Tableau, Looker, Excel, KPI design</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted" id="experience" aria-labelledby="experience-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-heading">A practical approach to dependable data systems.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">Recent</span>
+            <div>
+              <h3>Data Engineering and Analytics</h3>
+              <p>
+                Built repeatable data workflows, transformed source data into analytics-ready
+                models, and supported reporting with documented metrics and refresh processes.
+              </p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">Earlier</span>
+            <div>
+              <h3>Automation and Reporting</h3>
+              <p>
+                Reduced manual reporting effort by creating scripts, templates, and validations for
+                recurring business reporting needs.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-heading">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading">Let’s build data systems that people can trust.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="mailto:mayankuit33@gmail.com">mayankuit33@gmail.com</a>
+          <a class="button secondary" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Mayank Maheshwari</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
