@@ -357,6 +357,19 @@ h3 {
   font-weight: 700;
 }
 
+.project-link {
+  display: inline-flex;
+  width: fit-content;
+  margin-top: 18px;
+  color: var(--teal);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.project-link:hover {
+  color: var(--coral);
+}
+
 .skills-layout {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -414,6 +427,21 @@ h3 {
   50% {
     opacity: 1;
     filter: saturate(1.35);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
   }
 }
 

@@ -6,7 +6,7 @@
     <title>Mayank Maheshwari | Data Engineering Portfolio</title>
     <meta
       name="description"
-      content="Portfolio website for Mayank Maheshwari, focused on data engineering, cloud analytics, pipelines, warehousing, and automation."
+      content="Portfolio website for Mayank Maheshwari, focused on data engineering, SQL, Python automation, cloud analytics, pipelines, warehousing, and reporting."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,36 +36,45 @@
           <p class="eyebrow">Data Engineering Portfolio</p>
           <h1>Building reliable data pipelines, analytics platforms, and automation.</h1>
           <p class="hero-text">
-            I design and maintain data systems that turn messy operational data into trusted
-            datasets, dashboards, and business-ready insights.
+            I design repeatable data workflows that move raw operational data into trusted datasets,
+            reporting layers, and business-ready insights using SQL, Python, cloud warehouses, and
+            automation-first engineering practices.
           </p>
           <div class="hero-actions" aria-label="Primary actions">
             <a class="button primary" href="#projects">View Projects</a>
             <a class="button secondary" href="mailto:mayankuit33@gmail.com">Email Me</a>
+            <a
+              class="button secondary"
+              href="https://Maks3300.github.io/data-engineering-portfolio/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Site
+            </a>
           </div>
         </div>
         <div class="pipeline-visual" aria-label="Animated data pipeline visualization">
           <div class="pipeline-stage stage-a">
             <span>Sources</span>
-            <strong>APIs · Files · DBs</strong>
+            <strong>APIs / Files / DBs</strong>
           </div>
           <div class="pipeline-flow flow-one"></div>
           <div class="pipeline-stage stage-b">
             <span>Processing</span>
-            <strong>ETL · Quality · Jobs</strong>
+            <strong>ETL / Quality / Jobs</strong>
           </div>
           <div class="pipeline-flow flow-two"></div>
           <div class="pipeline-stage stage-c">
             <span>Analytics</span>
-            <strong>Models · BI · Alerts</strong>
+            <strong>Models / BI / Alerts</strong>
           </div>
           <div class="metric-tile metric-one">
-            <strong>99.9%</strong>
-            <span>pipeline uptime target</span>
+            <strong>DQ</strong>
+            <span>validation and audit checks</span>
           </div>
           <div class="metric-tile metric-two">
-            <strong>10x</strong>
-            <span>faster reporting cycles</span>
+            <strong>ELT</strong>
+            <span>repeatable transformation flows</span>
           </div>
         </div>
       </section>
@@ -78,15 +87,15 @@
         <div class="focus-grid">
           <article class="focus-item">
             <h3>Data Pipelines</h3>
-            <p>Batch and scheduled ingestion, validation, transformation, and monitoring workflows.</p>
+            <p>Batch ingestion, scheduled jobs, validation checkpoints, transformation logic, and monitoring workflows.</p>
           </article>
           <article class="focus-item">
             <h3>Cloud Analytics</h3>
-            <p>Cloud warehouses, lakehouse patterns, dimensional models, and performance tuning.</p>
+            <p>Warehouse-ready datasets, dimensional models, KPI definitions, query tuning, and BI delivery.</p>
           </article>
           <article class="focus-item">
             <h3>Automation</h3>
-            <p>Reusable scripts, reporting flows, data quality checks, and operational alerts.</p>
+            <p>Reusable scripts, file processing, data quality checks, operational reports, and exception handling.</p>
           </article>
         </div>
       </section>
@@ -94,34 +103,36 @@
       <section class="section section-muted" id="projects" aria-labelledby="projects-heading">
         <div class="section-heading">
           <p class="eyebrow">Selected Work</p>
-          <h2 id="projects-heading">Projects that show practical data engineering experience.</h2>
+          <h2 id="projects-heading">Project areas that show practical data engineering experience.</h2>
         </div>
         <div class="project-grid">
           <article class="project-card">
             <div class="project-icon">SQL</div>
-            <h3>Sales Analytics Warehouse</h3>
+            <h3>Analytics Warehouse Modeling</h3>
             <p>
-              Designed a clean reporting model for sales, customer, and product data with
-              incremental refresh patterns and dashboard-ready fact tables.
+              Reporting model patterns for sales, customer, and product data using staged sources,
+              fact and dimension tables, incremental refresh thinking, and dashboard-ready metrics.
             </p>
             <ul>
               <li>Dimensional modeling</li>
-              <li>Data quality checks</li>
-              <li>BI performance tuning</li>
+              <li>SQL transformations</li>
+              <li>BI-ready facts</li>
             </ul>
+            <a class="project-link" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">View GitHub work</a>
           </article>
           <article class="project-card">
-            <div class="project-icon">ETL</div>
+            <div class="project-icon">PY</div>
             <h3>Automated File Ingestion</h3>
             <p>
-              Built a repeatable ingestion process for CSV and Excel inputs, including schema
-              validation, error logs, and standardized output datasets.
+              Repeatable ingestion approach for CSV and Excel inputs with schema checks, standardized
+              outputs, exception handling, and logs that make recurring reporting easier to audit.
             </p>
             <ul>
               <li>Python automation</li>
-              <li>Exception handling</li>
-              <li>Audit-ready logs</li>
+              <li>Schema validation</li>
+              <li>Audit logs</li>
             </ul>
+            <a class="project-link" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">View GitHub work</a>
           </article>
           <article class="project-card">
             <div class="project-icon">BI</div>
@@ -135,6 +146,7 @@
               <li>Dashboard datasets</li>
               <li>Refresh monitoring</li>
             </ul>
+            <a class="project-link" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">View GitHub work</a>
           </article>
         </div>
       </section>
@@ -142,7 +154,7 @@
       <section class="section" id="skills" aria-labelledby="skills-heading">
         <div class="section-heading">
           <p class="eyebrow">Technical Toolkit</p>
-          <h2 id="skills-heading">Core skills across ingestion, transformation, and delivery.</h2>
+          <h2 id="skills-heading">Core skills across ingestion, transformation, orchestration, and delivery.</h2>
         </div>
         <div class="skills-layout">
           <div class="skill-group">
@@ -154,12 +166,12 @@
             <p>Snowflake, BigQuery, Redshift, PostgreSQL, MySQL</p>
           </div>
           <div class="skill-group">
-            <h3>Engineering</h3>
-            <p>ETL/ELT, Airflow, dbt, APIs, Git, CI/CD</p>
+            <h3>Pipeline Engineering</h3>
+            <p>ETL/ELT, Airflow, dbt, APIs, Git, CI/CD, Docker</p>
           </div>
           <div class="skill-group">
-            <h3>Analytics</h3>
-            <p>Power BI, Tableau, Looker, Excel, KPI design</p>
+            <h3>Quality and Analytics</h3>
+            <p>Data validation, testing, monitoring, Power BI, Tableau, Looker, Excel</p>
           </div>
         </div>
       </section>
@@ -175,8 +187,8 @@
             <div>
               <h3>Data Engineering and Analytics</h3>
               <p>
-                Built repeatable data workflows, transformed source data into analytics-ready
-                models, and supported reporting with documented metrics and refresh processes.
+                Built repeatable workflows, transformed source data into analytics-ready models,
+                documented metric logic, and supported reporting refresh processes for stakeholders.
               </p>
             </div>
           </article>
@@ -196,14 +208,19 @@
       <section class="contact section" id="contact" aria-labelledby="contact-heading">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2 id="contact-heading">Let’s build data systems that people can trust.</h2>
+          <h2 id="contact-heading">Let's build data systems that people can trust.</h2>
         </div>
         <div class="contact-actions">
           <a class="button primary" href="mailto:mayankuit33@gmail.com">mayankuit33@gmail.com</a>
           <a class="button secondary" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a class="button secondary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <a
+            class="button secondary"
+            href="https://www.linkedin.com/in/mayank-maheshwari-42035422/"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
         </div>

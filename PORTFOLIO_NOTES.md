@@ -6,6 +6,8 @@ Live site: https://maks3300.github.io/data-engineering-portfolio/
 
 Repository: https://github.com/Maks3300/data-engineering-portfolio
 
+LinkedIn: https://www.linkedin.com/in/mayank-maheshwari-42035422/
+
 Primary branch: `main`
 
 ## Style Preference
@@ -13,6 +15,23 @@ Primary branch: `main`
 - Keep the portfolio clean, professional, and focused on data engineering.
 - Make small scoped updates unless a redesign is explicitly requested.
 - Preserve the current responsive layout and GitHub Pages setup.
+- Keep claims specific and credible. Do not invent client names, metrics, or project outcomes.
+- Prefer concrete proof points: repo links, SQL/dbt examples, architecture diagrams, screenshots, data quality checks, and measurable outcomes.
+
+## Current Portfolio Direction
+
+- The site should read as a data engineering portfolio, not a generic landing page.
+- Project cards should point toward real GitHub work or clear case studies as they become available.
+- The README should be recruiter-facing and include the live site, GitHub, LinkedIn, email, and future project proof points.
+- Accessibility polish matters. Keep reduced-motion support when animation is present.
+
+## Next Recommended Updates
+
+1. Replace generic project links with individual case-study repository links.
+2. Add one detailed project page or repo for a SQL warehouse model.
+3. Add one detailed project page or repo for a Python ingestion pipeline.
+4. Add diagrams or screenshots showing pipeline flow, data model shape, and reporting output.
+5. Add measurable outcomes only when the numbers are accurate and defensible.
 
 ## Low-Token Update Workflow
 
