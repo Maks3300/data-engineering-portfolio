@@ -24,6 +24,7 @@
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#projects">Projects</a>
+        <a href="#delivery">Delivery</a>
         <a href="#skills">Skills</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
@@ -110,13 +111,13 @@
             <div class="project-icon">SQL</div>
             <h3>Analytics Warehouse Modeling</h3>
             <p>
-              Reporting model patterns for sales, customer, and product data using staged sources,
-              fact and dimension tables, incremental refresh thinking, and dashboard-ready metrics.
+              Warehouse model patterns for staged operational data, conformed dimensions,
+              fact tables, slowly changing attributes, and dashboard-ready metric definitions.
             </p>
             <ul>
+              <li>Source staging</li>
               <li>Dimensional modeling</li>
-              <li>SQL transformations</li>
-              <li>BI-ready facts</li>
+              <li>Metric logic</li>
             </ul>
             <a class="project-link" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">View GitHub work</a>
           </article>
@@ -125,12 +126,12 @@
             <h3>Automated File Ingestion</h3>
             <p>
               Repeatable ingestion approach for CSV and Excel inputs with schema checks, standardized
-              outputs, exception handling, and logs that make recurring reporting easier to audit.
+              outputs, reject handling, run logs, and review files that make recurring reporting easier to audit.
             </p>
             <ul>
               <li>Python automation</li>
               <li>Schema validation</li>
-              <li>Audit logs</li>
+              <li>Run logging</li>
             </ul>
             <a class="project-link" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">View GitHub work</a>
           </article>
@@ -138,15 +139,44 @@
             <div class="project-icon">BI</div>
             <h3>Executive Reporting Layer</h3>
             <p>
-              Created curated analytics tables and dashboard metrics so business users could track
-              KPIs without manual spreadsheet consolidation.
+              Curated analytics tables, KPI logic, and refresh-ready datasets designed to reduce
+              manual spreadsheet consolidation and make stakeholder reporting easier to validate.
             </p>
             <ul>
               <li>KPI definitions</li>
               <li>Dashboard datasets</li>
-              <li>Refresh monitoring</li>
+              <li>Validation checks</li>
             </ul>
             <a class="project-link" href="https://github.com/Maks3300" target="_blank" rel="noreferrer">View GitHub work</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="delivery" aria-labelledby="delivery-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Delivery Scope</p>
+          <h2 id="delivery-heading">How I frame data engineering work from source to trusted output.</h2>
+        </div>
+        <div class="delivery-grid">
+          <article class="delivery-item">
+            <span>01</span>
+            <h3>Source-to-Target Mapping</h3>
+            <p>Document inputs, grain, ownership, refresh cadence, required joins, and downstream reporting needs before building the pipeline.</p>
+          </article>
+          <article class="delivery-item">
+            <span>02</span>
+            <h3>Pipeline Reliability</h3>
+            <p>Design jobs with clear run logs, validation gates, exception paths, and repeatable deployment patterns.</p>
+          </article>
+          <article class="delivery-item">
+            <span>03</span>
+            <h3>Analytics Readiness</h3>
+            <p>Publish modeled tables, reusable SQL, metric definitions, and reporting datasets that are easy for business teams to trust.</p>
+          </article>
+          <article class="delivery-item">
+            <span>04</span>
+            <h3>Proof and Documentation</h3>
+            <p>Keep diagrams, README notes, data checks, sample outputs, and decision records close to the project code.</p>
           </article>
         </div>
       </section>

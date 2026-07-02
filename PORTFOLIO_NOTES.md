@@ -22,6 +22,7 @@ Primary branch: `main`
 
 - The site should read as a data engineering portfolio, not a generic landing page.
 - Project cards should point toward real GitHub work or clear case studies as they become available.
+- The Delivery Scope section should explain the working method: source-to-target mapping, pipeline reliability, analytics readiness, and proof/documentation.
 - The README should be recruiter-facing and include the live site, GitHub, LinkedIn, email, and future project proof points.
 - Accessibility polish matters. Keep reduced-motion support when animation is present.
 
@@ -31,7 +32,8 @@ Primary branch: `main`
 2. Add one detailed project page or repo for a SQL warehouse model.
 3. Add one detailed project page or repo for a Python ingestion pipeline.
 4. Add diagrams or screenshots showing pipeline flow, data model shape, and reporting output.
-5. Add measurable outcomes only when the numbers are accurate and defensible.
+5. Add source-to-target mapping examples, run-log screenshots, and validation outputs to support the Delivery Scope section.
+6. Add measurable outcomes only when the numbers are accurate and defensible.
 
 ## Low-Token Update Workflow
 

@@ -8,6 +8,7 @@ Live site: https://Maks3300.github.io/data-engineering-portfolio/
 
 - Data pipeline and automation focus across ingestion, transformation, quality checks, and reporting.
 - Practical project areas for analytics warehouse modeling, automated file ingestion, and executive reporting layers.
+- Delivery scope across source-to-target mapping, pipeline reliability, analytics readiness, and documentation.
 - Technical toolkit across SQL, Python, Airflow, dbt, cloud warehouses, BI tools, Git, CI/CD, and Docker.
 - Contact links for GitHub, LinkedIn, and email.
 
@@ -28,6 +29,7 @@ Live site: https://Maks3300.github.io/data-engineering-portfolio/
 
 - Add direct links to individual data engineering case-study repositories.
 - Include architecture diagrams, SQL/dbt model examples, pipeline screenshots, and data quality checks.
+- Add source-to-target mapping examples and run-log screenshots for the delivery scope section.
 - Add measurable outcomes for each project, such as time saved, data volume processed, or reporting errors reduced.
 - Add a downloadable resume link when the final resume artifact is ready.
 
